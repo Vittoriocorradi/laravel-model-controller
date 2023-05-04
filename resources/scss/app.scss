@@ -3,5 +3,14 @@
 @import "./_partials/_mixins";
 @import "./_partials/_typography";
 @import "./_partials/_common";
+@import "./_partials/_header.scss";
 @import "./_partials/main";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    height: 100%;
+    background: linear-gradient(to bottom, #fffdd0, #fffee0);
+    padding: 5rem 0;
+    font-family: 'Ubuntu', sans-serif;
+}
 
